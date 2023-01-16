@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     font-family: 'PT Sans', sans-serif;}
+
+.page-one{
+    background-image: url(./images/background\ img.jpeg);
+    width: 100%;
+    height: 200%;
+    background-size:cover;
+}
+.testimonial p , .content-writeup {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+}
+
+input{
+    height:50px;
+}
+.image-one{
+    max-width:20%;
+    height: auto;
+    border-radius: 100%;
+}
+    
+  
+.car {
+    margin-left: -180px;
+    width:39vw;
+    border-radius: 29px;  
+}
+.Social-icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.Social-icon :hover{
+    color: red;
+}
+.icon-bar{
+    position: fixed;
+    bottom:20px;
+    transform: translateY(-50%);
+    right: 1.9rem;
+    background-color: rgb(37,211,102);
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+}
